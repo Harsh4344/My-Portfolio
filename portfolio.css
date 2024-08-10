@@ -1,0 +1,333 @@
+html{
+    font-size: 62.5%;
+}
+
+#box1{
+    height: 68rem;
+    width: 100%;
+    border: .2rem solid black;
+    background-image: url("Glass2.jpg");
+    max-width: 100%;
+   
+}
+
+#box2{
+    height: 75vh;
+    width: 75vw;
+    border: .2rem solid whitesmoke;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    top: 7rem;
+    left: 15rem;
+    border-radius: 1.5rem;
+    box-shadow: 1.5rem 1.5rem 2rem
+    rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(1rem); 
+    -webkit-backdrop-filter: blur(1rem);
+}
+
+#name{
+    position: absolute;
+    top: .5rem;
+    left: 10rem;
+    color: rgb(94, 129, 17);
+    font-family: algerian;
+    text-shadow: .4rem .4rem .4rem rgb(237, 233, 233);
+    
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+#home{
+    position: absolute;
+    right: 50rem;
+    top: 3.5rem;
+    font-size: 1.8rem;
+}
+
+#about{
+    position: absolute;
+    right: 40rem;
+    top: 3.5rem;
+    font-size: 1.8rem;
+}
+
+#portfolio{
+    position: absolute;
+    right: 28rem;
+    top: 3.5rem;
+    font-size: 1.8rem;
+}
+
+#blog{
+    position: absolute;
+    right: 19rem;
+    top: 3.5rem;
+    font-size: 1.8rem;
+}
+
+#btn1{
+    position: absolute;
+    right: 8rem;
+    top: 3.2rem;
+    background-color:  rgb(69, 69, 201);
+    color: bisque;
+    font-size: 1.7rem;
+    border-radius: .6rem;
+}
+
+#btn2{
+    position: absolute;
+    right: .5rem;
+    border-radius: 50%;
+    text-align: center;
+    height: 5rem;
+    width:5rem ;
+}
+
+h1{
+    position: relative;
+    bottom: 1.5rem;
+}
+
+#txt1{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 12rem;
+    left: 17rem;
+    font-family:sans-serif;
+    color: black;
+    text-shadow: .2rem .2rem .2rem rgb(251, 249, 249);
+}
+
+#txt2{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 16rem;
+    left: 17rem;
+    font-family:sans-serif;
+    color: black;
+    text-shadow: .2rem .2rem .2rem rgb(249, 245, 245);
+}
+
+#txt3{
+    position: absolute;
+    top: 16rem;
+    left: 21rem;
+    font-size: 3.5rem;
+    font-family:'Times New Roman'Arial, Helvetica, sans-serif;
+    color: orangered;
+    text-shadow: .3rem .4rem .4rem rgb(246, 240, 240);
+}
+
+#txt4{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 22rem;
+    left: 17rem;
+    font-family:sans-serif;
+    color: black;
+    text-shadow: .3rem .4rem .4rem rgb(245, 241, 241);
+}
+
+#resume{
+    position: relative;
+    top: 32rem;
+    left: 17rem;
+    font-family:sans-serif;
+    color: #fffbfb;
+    text-shadow: 3px 4px 4px black;
+    background-color:rgb(255, 0, 0) ;
+    font-size: 1.8rem;
+    border-radius: .4rem;
+    padding: .5rem .8rem .5rem .8rem;
+}
+
+#contact{
+    position: relative;
+    top: 32rem;
+    left: 19rem;
+    font-family:sans-serif;
+    color: #fffbfb;
+    background-color: rgb(255, 0, 0);
+    text-shadow: 3px 4px 4px black;
+    font-size: 1.8rem;
+    border-radius: .4rem;
+    padding: .5rem .8rem .5rem .8rem;
+}
+
+.fa-linkedin{
+    position: absolute;
+   bottom: 180px;
+   left: 20px;
+   font-size: 22px;
+   color: bisque;
+}
+
+.fa-google{
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    font-size: 22px;  
+    color: bisque;
+}
+
+.fa-square-twitter{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    font-size: 22px;
+    color: bisque;
+}
+
+.fa-telegram{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    font-size: 22px;
+    color: bisque;
+}
+
+#email{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    font-size: 22px;
+    color: bisque;
+}
+
+#img5{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 20px;
+}
+
+.water-drop{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: drop 3s ease-in-out infinite;
+}
+
+.water-drop2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: drop 3s ease-in-out infinite;
+}
+
+.water-drop3{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: drop 3s ease-in-out infinite;
+}
+
+@keyframes drop{
+    0%{
+        transform: translate(-100px) scale(1);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(0) scale(1.2);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100px) scale(1);
+        opacity: 0;
+    }
+}
+
+#box7{
+    height: 200px;
+    width: 5px;
+    background-color: #fffbfb;
+}
+
+#box8{
+    height: 200px;
+    width: 5px;
+    background-color: #fffbfb;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+#box9{
+    position: absolute;
+    height: 150px;
+    width: 5px;
+    background-color: #fffbfb;
+    left: 400px;
+    bottom: 1px;
+    box-shadow:  20px 25px 25px
+    rgba(0, 0, 0);
+}
+
+#box10{
+    position: absolute;
+    height: 150px;
+    width: 5px;
+    background-color: #fffbfb;
+    left: 450px;
+    bottom: 1px;
+    box-shadow:  20px 25px 25px
+    rgba(0, 0, 0);
+}
+
+#box11{
+    position: absolute;
+    height: 150px;
+    width: 5px;
+    background-color: #fffbfb;
+    left: 500px;
+    bottom: 1px;
+    box-shadow:  20px 25px 25px
+    rgba(0, 0, 0);
+}
+
+#box12{
+    position: absolute;
+    height: 150px;
+    width: 5px;
+    background-color: #fffbfb;
+    left: 550px;
+    bottom: 1px;
+    box-shadow:  20px 25px 25px
+    rgb(0, 0, 0);
+}
+
+ @media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+ }
+
+ @media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+ }
+    
+
+
+
+
